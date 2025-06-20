@@ -2,41 +2,43 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <title>تغيير الآي بي جاري الآن...</title>
+    <title>جاري تغيير الآي بي...</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="1;url=https://localtonet.com/android/changeip?u=6cEOFpVABjybY2KrGZRwfdHC35NvLM8SToJ">
+    <meta http-equiv="refresh" content="2;url=https://localtonet.com/android/changeip?u=6cEOFpVABjybY2KrGZRwfdHC35NvLM8SToJ" />
     <style>
       body {
         background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-        color: #fff;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
         text-align: center;
-        padding-top: 100px;
       }
 
-      .container {
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 20px;
+      .box {
+        background-color: rgba(255, 255, 255, 0.05);
         padding: 40px;
-        max-width: 400px;
-        margin: auto;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
       }
 
       h1 {
-        font-size: 28px;
         margin-bottom: 20px;
+        font-size: 24px;
       }
 
       .loader {
-        margin: 30px auto;
-        border: 8px solid #f3f3f3;
-        border-top: 8px solid #00c9ff;
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #00c9ff;
         border-radius: 50%;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         animation: spin 1s linear infinite;
+        margin: 20px auto;
       }
 
       @keyframes spin {
@@ -45,16 +47,15 @@
       }
 
       p {
-        font-size: 16px;
         opacity: 0.8;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>جارٍ تغيير عنوان الآي بي الخاص بك...</h1>
+    <div class="box">
+      <h1>جاري تغيير عنوان الـ IP الخاص بك</h1>
       <div class="loader"></div>
-      <p>يرجى الانتظار، سيتم تحويلك خلال ثوانٍ</p>
+      <p>يرجى الانتظار... سيتم التحويل خلال ثوانٍ</p>
     </div>
   </body>
 </html>
