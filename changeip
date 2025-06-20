@@ -2,10 +2,12 @@
 <html lang="ar">
   <head>
     <meta charset="UTF-8">
-    <title>جاري تغيير الآي بي...</title>
-    <meta http-equiv="refresh" content="0;url=https://localtonet.com/android/changeip?u=6cEOFpVABjybY2KrGZRwfdHC35NvLM8SToJ">
+    <title>تغيير الآي بي</title>
   </head>
   <body>
-    <p>جاري التحويل، يرجى الانتظار...</p>
+    <h2>اضغط على الزر لتغيير الآي بي</h2>
+    <button onclick="window.location.href='https://localtonet.com/android/changeip?u=6cEOFpVABjybY2KrGZRwfdHC35NvLM8SToJ'">
+      🔄 تغيير الآي بي الآن
+    </button>
   </body>
 </html>
